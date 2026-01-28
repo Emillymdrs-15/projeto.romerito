@@ -4,6 +4,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 body{
@@ -11,7 +12,7 @@ body{
 }
 
 .cabecalho{
-    position: absolute;
+    position: relative;
     width: max-content;
     height: 100px;
     display: flex;
@@ -43,8 +44,9 @@ body{
     color: black;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 70px;
+    margin-top: -130px;
 }
+
 
 /* Página do formulário */
 .formulario{
@@ -67,7 +69,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
     margin-left: 20px;
-    color: black;
 }
 
 .formulario > h1{
@@ -93,4 +94,24 @@ button{
     margin-top: 20px;
     width: 100%;
     border-radius: 10px;
+}
+
+
+/* Seção de livros */
+.livros{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 1px 20px gray;
+    margin: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.capas{
+    width: 160px;
 }
