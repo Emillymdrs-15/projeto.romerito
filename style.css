@@ -51,7 +51,7 @@ body{
 /* Página do formulário */
 .formulario{
     width: 400px;
-    height: 380px;
+    height: 420px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,21 +60,35 @@ body{
     border-radius: 15px;
     background-color: beige;
     box-shadow: 3px 3px 10px gray;
-    text-align: center;
 }
 
 .botao-inicio{
-    color: black;
+    color: gray;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -4px;
-    margin-left: -6px;
+    margin-left: -6px; 
+    background-color: rgba(0, 255, 255, 0.432);
+    padding: 4px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.botao-inicio > a{
+    text-decoration: none;
+    color: black;
+}
+
+.botao-inicio:hover{
+    color: rgb(58, 53, 53);
+    background-color: rgba(58, 189, 189, 0.63);
 }
 
 .formulario > h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 input{
@@ -114,4 +128,5 @@ button{
 
 .capas{
     width: 160px;
+    height: 220px;
 }
