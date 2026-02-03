@@ -27,6 +27,7 @@ body{
     margin-left: 60px;
     font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(6, 48, 63); 
 }
 
 .menu{
@@ -41,7 +42,7 @@ body{
 }
 
 .menu > a{
-    color: black;
+    color: rgb(6, 48, 63);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -130px;
@@ -114,7 +115,7 @@ button{
 /* Seção de livros */
 .livros{
     position: relative;
-    border: 2px solid black;
+    border: 2px solid rgb(6, 68, 90);
     border-radius: 10px;
     width: 200px;
     height: 300px;
