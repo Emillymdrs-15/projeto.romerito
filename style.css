@@ -125,9 +125,18 @@ button{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    transform: scale(0.95);
 }
 
 .capas{
     width: 160px;
     height: 220px;
+}
+
+.livros:hover{
+    transform: scale(1.0);
+}
+
+.livros:active{
+    transform: scale(0.80);
 }
