@@ -121,12 +121,20 @@ button{
     height: 300px;
     box-shadow: 4px 1px 20px gray;
     margin: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
     transform: scale(0.95);
+      display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
+.catalogo{
+      display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
 
 .capas{
     width: 160px;
