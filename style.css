@@ -140,3 +140,20 @@ button{
 .livros:active{
     transform: scale(0.80);
 }
+.sobre{
+    max-width: 800px;
+    margin: 80px auto;
+    background-color:palegoldenrod;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10 20;
+}
+.sobre h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: darkcyan;
+}
+.sobre p{
+    font-size: 20px;
+    color: darkcyan;
+}
