@@ -377,3 +377,18 @@ footer{
     }
     
 }
+
+@media (max-width: 768px){
+    .cabecalho{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 10px;
+    }}
